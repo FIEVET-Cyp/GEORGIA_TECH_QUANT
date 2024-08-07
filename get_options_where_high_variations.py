@@ -93,12 +93,12 @@ for ticker in tickers:
     option_symbol = f'O:{ticker}{maturity_str}P{strike_price_str}'
 
     start_date = date_only.strftime('%Y-%m-%d')
-    end_date = (date_only + relativedelta(days=10)).strftime('%Y-%m-%d')
+    end_date = (date_only + relativedelta(days=1)).strftime('%Y-%m-%d')
 
     print(f"Fetching data for {option_symbol} from {start_date} to {end_date}...")
 
     try:
-        data = fetch_option_data(api_key, option_symbol, 1, 'day', '2010-01-09', '2024-08-02')
+        data = fetch_option_data(api_key, option_symbol, 1, 'day', start_date, end_date)
         print(data)
         extract_open_prices_and_timestamps(data, option_symbol)
     except Exception as e:

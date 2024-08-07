@@ -1,0 +1,149 @@
+[
+    {
+        "high": 115.12,
+        "low": 110.19,
+        "percentage_change": 4.474090207822858,
+        "timestamp": "2022-08-26T06:00:00",
+        "intensity": 4.930000000000007
+    },
+    {
+        "high": 99.775,
+        "low": 94.3836,
+        "percentage_change": 5.712221190969622,
+        "timestamp": "2022-10-13T06:00:00",
+        "intensity": 5.391400000000004
+    },
+    {
+        "high": 100.69,
+        "low": 96.37,
+        "percentage_change": 4.482722839057791,
+        "timestamp": "2022-10-14T06:00:00",
+        "intensity": 4.319999999999993
+    },
+    {
+        "high": 96.55,
+        "low": 92.13,
+        "percentage_change": 4.797568652990342,
+        "timestamp": "2022-10-28T06:00:00",
+        "intensity": 4.420000000000002
+    },
+    {
+        "high": 96.03,
+        "low": 90.37,
+        "percentage_change": 6.2631404227066465,
+        "timestamp": "2022-11-01T05:00:00",
+        "intensity": 5.659999999999997
+    },
+    {
+        "high": 91.18,
+        "low": 86.88,
+        "percentage_change": 4.94935543278086,
+        "timestamp": "2022-11-02T05:00:00",
+        "intensity": 4.300000000000011
+    },
+    {
+        "high": 101.04,
+        "low": 94.42,
+        "percentage_change": 7.011226435077318,
+        "timestamp": "2022-11-30T06:00:00",
+        "intensity": 6.6200000000000045
+    },
+    {
+        "high": 99.53,
+        "low": 95.03,
+        "percentage_change": 4.735346732610755,
+        "timestamp": "2022-12-13T06:00:00",
+        "intensity": 4.5
+    },
+    {
+        "high": 107.81,
+        "low": 102.58,
+        "percentage_change": 5.098459738740499,
+        "timestamp": "2023-02-03T06:00:00",
+        "intensity": 5.230000000000004
+    },
+    {
+        "high": 108.18,
+        "low": 103.12,
+        "percentage_change": 4.906904577191623,
+        "timestamp": "2023-02-07T06:00:00",
+        "intensity": 5.060000000000002
+    },
+    {
+        "high": 103.14,
+        "low": 98.035,
+        "percentage_change": 5.207323914928346,
+        "timestamp": "2023-02-08T06:00:00",
+        "intensity": 5.105000000000004
+    },
+    {
+        "high": 100.03,
+        "low": 93.63,
+        "percentage_change": 6.835415999145579,
+        "timestamp": "2023-02-09T06:00:00",
+        "intensity": 6.400000000000006
+    },
+    {
+        "high": 96.93,
+        "low": 92.64,
+        "percentage_change": 4.630829015544048,
+        "timestamp": "2023-03-15T05:00:00",
+        "intensity": 4.290000000000006
+    },
+    {
+        "high": 101.19,
+        "low": 95.5,
+        "percentage_change": 5.958115183246071,
+        "timestamp": "2023-03-16T05:00:00",
+        "intensity": 5.689999999999998
+    },
+    {
+        "high": 109.17,
+        "low": 104.33,
+        "percentage_change": 4.639125850666159,
+        "timestamp": "2023-04-06T06:00:00",
+        "intensity": 4.840000000000003
+    },
+    {
+        "high": 108.37,
+        "low": 103.54,
+        "percentage_change": 4.6648638207456035,
+        "timestamp": "2023-04-27T06:00:00",
+        "intensity": 4.829999999999998
+    },
+    {
+        "high": 112.94,
+        "low": 107.93,
+        "percentage_change": 4.641897526174364,
+        "timestamp": "2023-05-10T06:00:00",
+        "intensity": 5.009999999999991
+    },
+    {
+        "high": 129.04,
+        "low": 122.12,
+        "percentage_change": 5.6665574844415225,
+        "timestamp": "2023-06-07T06:00:00",
+        "intensity": 6.9199999999999875
+    },
+    {
+        "high": 124.09,
+        "low": 118.22,
+        "percentage_change": 4.965318896971752,
+        "timestamp": "2023-07-20T06:00:00",
+        "intensity": 5.8700000000000045
+    },
+    {
+        "high": 127.78,
+        "low": 120.53,
+        "percentage_change": 6.015099975109931,
+        "timestamp": "2023-10-30T05:00:00",
+        "intensity": 7.25
+    },
+    {
+        "high": 142.62,
+        "low": 136.5,
+        "percentage_change": 4.483516483516487,
+        "timestamp": "2024-02-02T06:00:00",
+        "intensity": 6.1200000000000045
+    }
+]

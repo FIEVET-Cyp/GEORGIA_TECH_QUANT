@@ -1,4 +1,5 @@
 import requests
+import time
 
 def read_api_keys(file_path):
     keys = {}
@@ -27,6 +28,7 @@ api_key = api_keys.get("API_KEY")
 
 
 def fetch_stock_data(api_key, ticker, start_date, end_date, adjusted=True, sort='asc', sleep_time=21):
+    time.sleep(sleep_time)
     base_url = "https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/day/{start}/{end}"
     params = {
         "adjusted": str(adjusted).lower(),
@@ -40,8 +42,14 @@ def fetch_stock_data(api_key, ticker, start_date, end_date, adjusted=True, sort=
     if response.status_code == 200:
         data = response.json()
         results = data.get("results", [])
-        high_low_time = [[res["h"], res["l"], res["t"]] for res in results]
-        return high_low_time
+        # high_low_time = [[res["h"], res["l"], res["t"]] for res in results]
+        # return high_low_time
+        if results == []:
+            print("None")
+            return None
+        else : 
+            print(results)
+            return results[0]["o"]
     else:
         print(f"Erreur pour {ticker} : {response.status_code}")
         return None
