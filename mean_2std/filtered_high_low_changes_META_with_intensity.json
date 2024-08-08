@@ -4,167 +4,191 @@
         "low": 167.13,
         "percentage_change": 6.210734159037872,
         "timestamp": "2022-08-08T06:00:00",
-        "intensity": 10.379999999999995
+        "intensity": 10.379999999999995,
+        "delta_1w": null
     },
     {
         "high": 170.92,
         "low": 161.6726,
         "percentage_change": 5.719831313407466,
         "timestamp": "2022-08-26T06:00:00",
-        "intensity": 9.247399999999999
+        "intensity": 9.247399999999999,
+        "delta_1w": -1.0300000000000011
     },
     {
         "high": 167.93,
         "low": 159.22,
         "percentage_change": 5.470418289159658,
         "timestamp": "2022-09-02T06:00:00",
-        "intensity": 8.710000000000008
+        "intensity": 8.710000000000008,
+        "delta_1w": -4.201999999999998
     },
     {
         "high": 161.63,
         "low": 152.67,
         "percentage_change": 5.868867491976163,
         "timestamp": "2022-09-13T06:00:00",
-        "intensity": 8.960000000000008
+        "intensity": 8.960000000000008,
+        "delta_1w": -15.764999999999986
     },
     {
         "high": 142.03,
         "low": 134.27,
         "percentage_change": 5.779399716988151,
         "timestamp": "2022-09-28T06:00:00",
-        "intensity": 7.759999999999991
+        "intensity": 7.759999999999991,
+        "delta_1w": 3.6200000000000045
     },
     {
         "high": 131.14,
         "low": 122.5301,
         "percentage_change": 7.026763219812912,
         "timestamp": "2022-10-13T06:00:00",
-        "intensity": 8.609899999999982
+        "intensity": 8.609899999999982,
+        "delta_1w": 9.400000000000006
     },
     {
         "high": 133.48,
         "low": 124.57,
         "percentage_change": 7.152604961066065,
         "timestamp": "2022-10-24T06:00:00",
-        "intensity": 8.909999999999997
+        "intensity": 8.909999999999997,
+        "delta_1w": -29.03
     },
     {
         "high": 138.35,
         "low": 130.59,
         "percentage_change": 5.942262041503937,
         "timestamp": "2022-10-25T06:00:00",
-        "intensity": 7.759999999999991
+        "intensity": 7.759999999999991,
+        "delta_1w": -36.545
     },
     {
         "high": 135.55,
         "low": 128.53,
         "percentage_change": 5.461759900412363,
         "timestamp": "2022-10-26T06:00:00",
-        "intensity": 7.02000000000001
+        "intensity": 7.02000000000001,
+        "delta_1w": -37.47500000000001
     },
     {
         "high": 102.5,
         "low": 96.38,
         "percentage_change": 6.349865117244247,
         "timestamp": "2022-10-27T06:00:00",
-        "intensity": 6.1200000000000045
+        "intensity": 6.1200000000000045,
+        "delta_1w": -7.894999999999996
     },
     {
         "high": 99.32,
         "low": 92.6,
         "percentage_change": 7.2570194384449245,
         "timestamp": "2022-10-31T05:00:00",
-        "intensity": 6.719999999999999
+        "intensity": 6.719999999999999,
+        "delta_1w": -3.4399999999999977
     },
     {
         "high": 112.75,
         "low": 104.61,
         "percentage_change": 7.781282860147214,
         "timestamp": "2022-11-10T06:00:00",
-        "intensity": 8.14
+        "intensity": 8.14,
+        "delta_1w": 3.289999999999992
     },
     {
         "high": 114.9,
         "low": 108.81,
         "percentage_change": 5.596912048524954,
         "timestamp": "2022-11-11T06:00:00",
-        "intensity": 6.090000000000003
+        "intensity": 6.090000000000003,
+        "delta_1w": 4.569999999999993
     },
     {
         "high": 118.16,
         "low": 109.38,
         "percentage_change": 8.027061620040229,
         "timestamp": "2022-11-30T06:00:00",
-        "intensity": 8.780000000000001
+        "intensity": 8.780000000000001,
+        "delta_1w": 4.25500000000001
     },
     {
         "high": 124.04,
         "low": 117.61,
         "percentage_change": 5.467222174985126,
         "timestamp": "2022-12-02T06:00:00",
-        "intensity": 6.430000000000007
+        "intensity": 6.430000000000007,
+        "delta_1w": -2.530000000000001
     },
     {
         "high": 120.55,
         "low": 113.74,
         "percentage_change": 5.987339546333746,
         "timestamp": "2022-12-06T06:00:00",
-        "intensity": 6.810000000000002
+        "intensity": 6.810000000000002,
+        "delta_1w": 2.219999999999999
     },
     {
         "high": 197.16,
         "low": 180.16,
         "percentage_change": 9.436056838365896,
         "timestamp": "2023-02-02T06:00:00",
-        "intensity": 17.0
+        "intensity": 17.0,
+        "delta_1w": 2.75
     },
     {
         "high": 196.77,
         "low": 182.89,
         "percentage_change": 7.589261304609342,
         "timestamp": "2023-02-03T06:00:00",
-        "intensity": 13.880000000000024
+        "intensity": 13.880000000000024,
+        "delta_1w": -7.11160000000001
     },
     {
         "high": 295,
         "low": 279.403,
         "percentage_change": 5.5822593171869945,
         "timestamp": "2023-10-26T06:00:00",
-        "intensity": 15.59699999999998
+        "intensity": 15.59699999999998,
+        "delta_1w": 22.30000000000001
     },
     {
         "high": 485.96,
         "low": 453.01,
         "percentage_change": 7.273570119864901,
         "timestamp": "2024-02-02T06:00:00",
-        "intensity": 32.94999999999999
+        "intensity": 32.94999999999999,
+        "delta_1w": 13.349999999999966
     },
     {
         "high": 502.8,
         "low": 475.73,
         "percentage_change": 5.690202425745695,
         "timestamp": "2024-04-19T06:00:00",
-        "intensity": 27.069999999999993
+        "intensity": 27.069999999999993,
+        "delta_1w": -61.34000000000003
     },
     {
         "high": 445.77,
         "low": 414.5,
         "percentage_change": 7.544028950542818,
         "timestamp": "2024-04-25T06:00:00",
-        "intensity": 31.269999999999982
+        "intensity": 31.269999999999982,
+        "delta_1w": 17.439999999999998
     },
     {
         "high": 540.87,
         "low": 511.6,
         "percentage_change": 5.721266614542608,
         "timestamp": "2024-07-05T06:00:00",
-        "intensity": 29.269999999999982
+        "intensity": 29.269999999999982,
+        "delta_1w": -13.845000000000027
     },
     {
         "high": 527.1709,
         "low": 492.1,
         "percentage_change": 7.126783174151583,
         "timestamp": "2024-08-01T06:00:00",
-        "intensity": 35.07089999999994
+        "intensity": 35.07089999999994,
+        "delta_1w": null
     }
 ]
