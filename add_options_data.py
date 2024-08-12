@@ -71,42 +71,50 @@ for ticker in tickers:
             data = json.load(file)
         
         for element in data:
-            timespan_str = element.get("timestamp", "")
-            if timespan_str:
-                try:
-                    timespan = datetime.strptime(timespan_str, '%Y-%m-%dT%H:%M:%S').date()
-                    maturity = correct_maturity(timespan)
-                    strike_price = round((element["high"] + element["low"]) / 2, 2)
-                    strike_price = nearest_strike_price(strike_price)
+            print(element.keys())
+            if ('option_data_p' in element.keys() and element["option_data_p"] == [] and element["option_data_p"] != None) or 'option_data_p' not in element.keys():
+                if ('option_data_p' in element.keys() and element["option_data_p"] == [] and element["option_data_p"] != None):
+                    print("1")
+                if 'options_data_p' not in element.keys():
+                    print("2") 
+                
+                
+                timespan_str = element.get("timestamp", "")
+                if timespan_str:
+                    try:
+                        timespan = datetime.strptime(timespan_str, '%Y-%m-%dT%H:%M:%S').date()
+                        maturity = correct_maturity(timespan)
+                        strike_price = round((element["high"] + element["low"]) / 2, 2)
+                        strike_price = nearest_strike_price(strike_price)
 
-                    maturity_str = maturity.strftime('%y%m%d')
-                    strike_price_str = f'{int(strike_price * 1000):08d}'
-                    option_symbol = f'O:{ticker}{maturity_str}P{strike_price_str}'
+                        maturity_str = maturity.strftime('%y%m%d')
+                        strike_price_str = f'{int(strike_price * 1000):08d}'
+                        option_symbol = f'O:{ticker}{maturity_str}P{strike_price_str}'
 
-                    start_date = timespan.strftime('%Y-%m-%d')
-                    end_date = (timespan + timedelta(days=1)).strftime('%Y-%m-%d')
+                        start_date = timespan.strftime('%Y-%m-%d')
+                        end_date = (timespan + timedelta(days=1)).strftime('%Y-%m-%d')
 
-                    option_data = fetch_option_data(api_key, option_symbol, 1, 'minute', start_date, end_date)
-                    print(option_data)
-                    open_prices = extract_open_prices_and_timestamps(option_data)
+                        option_data = fetch_option_data(api_key, option_symbol, 1, 'minute', start_date, end_date)
+                        # print(option_data)
+                        open_prices = extract_open_prices_and_timestamps(option_data)
 
-                    # Add option data to the element
-                    element["option_data_p"] = open_prices
+                        # Add option data to the element
+                        element["option_data_p"] = open_prices
 
-                    # Calculate and add time until maturity
-                    time_until_maturity = calculate_time_until_maturity(maturity, timespan)
-                    element["time_until_maturity"] = time_until_maturity
-                    
-                except ValueError as e:
-                    print(f"Error parsing date {timespan_str}: {e}")
-            time.sleep(21)
+                        # Calculate and add time until maturity
+                        time_until_maturity = calculate_time_until_maturity(maturity, timespan)
+                        element["time_until_maturity"] = time_until_maturity
+                        
+                    except ValueError as e:
+                        print(f"Error parsing date {timespan_str}: {e}")
+                time.sleep(21)
 
 
-            # Save the modified JSON back to the file
-            with open(output_file_path, 'w') as file:
-                json.dump(data, file, indent=4)
-            
-            print(f"Modified JSON saved to {output_file_path}")
+                # Save the modified JSON back to the file
+                with open(output_file_path, 'w') as file:
+                    json.dump(data, file, indent=4)
+                
+                print(f"Modified JSON saved to {output_file_path}")
     
     else:
         print(f"File {input_file_path} does not exist.")
